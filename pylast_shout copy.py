@@ -3,22 +3,21 @@
 # The objective of this example is to leave a shout for an artist of your liking
 
 import pylast
-API_KEY = "XXXX"
-API_SECRET = "XXX"
-username = "XXXX"
-password_hash = pylast.md5("XXX")
+API_KEY = "===================="
+API_SECRET = "===================="
+username = "===================="
+password_hash = pylast.md5("====================")
 network = pylast.LastFMNetwork(api_key = API_KEY, api_secret = API_SECRET, username = username, password_hash = password_hash)
 
-# The below get_artist() method takes the title of a song as a parameter and fetches the name of the corresponding artist
+# In the below line - get_artist() method takes the title of the artist as a parameter , fetches and stores it in the variable artist
 
 artist = network.get_artist("System of a Down")
 
-# the following line prints the name of the artist
 
-print artist 
-
-# this leaves a shout on the artist's page , if you have your username and password filled out correctly above ;you should be able to see the 
+# the below line leaves a shout on the artist's page , if you have your username and password filled out correctly above ;you should be able to see the 
 # shout on the artist's page 
 
 artist.shout("<<<<3")
+
+# We could do more with the above skeleton code
 
