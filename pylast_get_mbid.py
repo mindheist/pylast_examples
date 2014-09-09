@@ -3,7 +3,6 @@
 # Pre-Req - The following example assumes that you already have pylast downloaded and installed
 #         - And have generated an API_KEY from last.fm 
 
-
 import pylast
 API_KEY = "===================="
 API_SECRET = "===================="
