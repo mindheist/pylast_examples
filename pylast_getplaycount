@@ -13,11 +13,14 @@ network = pylast.LastFMNetwork(api_key = API_KEY, api_secret = API_SECRET, usern
 
 artist = network.get_artist("System of a Down")
 
+# the following line gets the total playcount associated with the artist. This is the total number of scrobbles for the artist.
 
-# the below line leaves a shout on the artist's page , if you have your username and password filled out correctly above ;you should be able to see the 
-# shout on the artist's page 
+print artist.get_playcount()
 
-artist.shout("<<<<3")
+#Output
+#=======
+# If you run this script on the commandline 
+#python pylast_getplaycount 
+#202441127
 
-# We could do more with the above skeleton code ; check out examples : pylast_getplaycount 
 
