@@ -69,6 +69,7 @@ print " "
 print "==========================================="
 print " "
 set3= set1-set2
+# converting a set into a list : http://stackoverflow.com/questions/6593979/how-to-convert-a-set-to-a-list-in-python
 mylist = list(set3)
 for index,item in enumerate(mylist):
 	print index,item
