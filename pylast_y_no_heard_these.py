@@ -1,3 +1,8 @@
+# Link to pylast's github page : https://github.com/pylast/pylast/blob/master/pylast.py
+# scrobble Example github link : https://github.com/hugovk/lastfm-tools/blob/master/scrobble.py
+# Average Scrobble Example link: https://github.com/ChaseKR/averagescrobbles/blob/master/avscrobbles.py
+#====================================================================================================
+
 import pylast
 API_KEY = "===================="
 API_SECRET = "===================="
